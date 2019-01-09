@@ -16,7 +16,7 @@
 
 3) step 3: open `Duck Hunt` game
 
-    link: [Duck_Hunt](https://www.borntodev.com/shoot-duck-game/)
+    link: [Duck_Hunt](http://www.gotoandplay.it/_games/_nesDuckHunt/nesDuckHunt.php)
 
 4) step 4: start game and bot
     ```
