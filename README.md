@@ -7,6 +7,7 @@
 
     ```
     $ pip install autopy
+    $ pip install keyboard
     ```
 
 2) step 2: clone this bot

@@ -2,6 +2,9 @@
 import autopy
 import keyboard
 
+gameURL = "http://www.gotoandplay.it/_games/_nesDuckHunt/nesDuckHunt.php"
+
+
 def findDuck(startArea):
     screen = autopy.bitmap.capture_screen()
     pos = screen.find_color((252, 116, 96), 0.03,
@@ -17,7 +20,7 @@ def findGameArea():
         screen = autopy.bitmap.capture_screen()
         pos = screen.find_color((66, 198, 255), 0.03)
         if pos:
-        #     print("Game Area: " + str(pos))
+            # print("Game Area: " + str(pos))
             return pos
     exit()
 
@@ -27,6 +30,7 @@ def exitGame():
         # print('Exit Duck AIM BOT !!')
         return True
     return False
+
 
 startArea = findGameArea()
 for i in range(1000):
