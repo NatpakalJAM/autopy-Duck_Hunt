@@ -10,6 +10,7 @@
     ```
 
 2) step 2: clone this bot
+
     ```
     $ git clone https://github.com/NatpakalJAM/autopy-Duck_Hunt.git
     ```
@@ -19,6 +20,7 @@
     link: [Duck_Hunt](https://www.borntodev.com/shoot-duck-game/)
 
 4) step 4: start game and bot
+
     ```
     $ python Duck_Hunter.py
     ```
@@ -26,3 +28,5 @@
 5) step 5: have fun
 
     :D
+
+    You can press `Q` for terminate this bot.
